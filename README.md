@@ -1,11 +1,11 @@
 # Awesome Video Player
 
-Родительский компонент: <a href="public/scr/components/TimelineGroup.vue">TimelineGroup</a>.
+Родительский компонент: <a href="scr/components/TimelineGroup.vue">TimelineGroup</a>.
 В нем происходит запрос к серверу, парсится programs.json и разносится информация по компонентам.
 
-В файле <a href="public/scr/components/TimelineTitles.vue">TimelineTitles</a> находятся титры к передаче: название и время.
+В файле <a href="scr/components/TimelineTitles.vue">TimelineTitles</a> находятся титры к передаче: название и время.
 
-<a href="public/scr/components/CurrentPlayerPosition.vue">CurrentPlayerPosition</a> - бегунок лайф трансляции.
+<a href="scr/components/CurrentPlayerPosition.vue">CurrentPlayerPosition</a> - бегунок лайф трансляции.
 
 TODO:
 
