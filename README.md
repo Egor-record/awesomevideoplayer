@@ -3,7 +3,7 @@
 Родительский компонент: <a href="scr/components/TimelineGroup.vue">TimelineGroup</a>.
 В нем происходит запрос к серверу, парсится programs.json и разносится информация по компонентам.
 
-В файле [a link](scr/components/TimelineTitles.vue)TimelineTitles находятся титры к передаче: название и время.
+В файле [a TimelineTitles](scr/components/TimelineTitles.vue) находятся титры к передаче: название и время.
 
 <a href="scr/components/CurrentPlayerPosition.vue">CurrentPlayerPosition</a> - бегунок лайф трансляции.
 
