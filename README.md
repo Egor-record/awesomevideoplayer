@@ -1,4 +1,21 @@
-# awesomevideoplayer
+# Awesome Video Player
+
+Родительский компонент: <a href="public/scr/components/TimelineGroup.vue">TimelineGroup</a>.
+В нем происходит запрос к серверу, парсится programs.json и разносится информация по компонентам.
+
+В файле <a href="public/scr/components/TimelineTitles.vue">TimelineTitles</a> находятся титры к передаче: название и время.
+
+<a href="public/scr/components/CurrentPlayerPosition.vue">CurrentPlayerPosition</a> - бегунок лайф трансляции.
+
+TODO:
+
+<ul>
+    <li>Счетчик до начала следующего фильма</li>
+    <li>Реализовать перемотку фильма</li>
+    <li>Переписать d-flex на float</li>
+    <li>Добавить полифил для моделей младше webOS 4</li>
+
+</ul>
 
 ## Project setup
 ```
@@ -15,10 +32,3 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
