@@ -5,7 +5,7 @@
 
 В файле <b>TimelineTitles</b> находятся титры к передаче: название и время.
 
-<a href="scr/components/CurrentPlayerPosition.vue">CurrentPlayerPosition</a> - бегунок лайф трансляции.
+<b>CurrentPlayerPosition</b> - бегунок лайф трансляции.
 
 TODO:
 
